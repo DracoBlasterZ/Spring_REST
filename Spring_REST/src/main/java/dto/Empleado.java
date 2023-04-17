@@ -88,6 +88,14 @@ public class Empleado {
 		this.salario = salario;
 	}
 	
+	//Metodo impresion de datos por consola
+	@Override
+	public String toString() {
+		return "Cliente [id=" + id + ", nombre=" + nombre + ", trabajo=" + trabajo + ", salario=" + salario
+				+ "]";
+	}
+	
+	
 
 }
  
