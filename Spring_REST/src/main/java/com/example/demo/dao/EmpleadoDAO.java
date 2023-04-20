@@ -1,14 +1,11 @@
-package dao;
+package com.example.demo.dao;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import dto.Empleado;
+import com.example.demo.dto.Empleado;
 
-/**
- * @author Jose
- *
- */
+
 public interface EmpleadoDAO extends JpaRepository<Empleado, Long>{
 	
 	//Listar clientes or campo nombre

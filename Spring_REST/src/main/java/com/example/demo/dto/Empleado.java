@@ -1,4 +1,4 @@
-package dto;
+package com.example.demo.dto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

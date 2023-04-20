@@ -1,8 +1,8 @@
-package service_empleado;
+package com.example.demo.service;
 
 import java.util.List;
 
-import dto.Empleado;
+import com.example.demo.dto.Empleado;
 
 public interface EmpleadoService {
 
